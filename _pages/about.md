@@ -6,7 +6,7 @@ description: <a>Undergrad Student</a>.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: pic_profile.png
   address: >
     <p>555 jsdhokey_b18@pe.vjti.ac.in</p>
   
