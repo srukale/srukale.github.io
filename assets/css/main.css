@@ -6,7 +6,8 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 .container { max-width: 800px; }
 
-.profile img { width: 100%; }
+.profile img { box-shadow: 0 0 5px #828282; width: 100%; }
+
 
 a, table.table a { color: #B509AC; }
 a:hover, table.table a:hover { color: #B509AC; text-decoration: underline; }
