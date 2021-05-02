@@ -5,6 +5,13 @@ html { font-family: sans-serif; /* 1 */ -ms-text-size-adjust: 100%; /* 2 */ -web
 /** Remove the margin in all browsers (opinionated). */
 body { margin: 0; }
 
+body {margin:0; padding:0;}
+#particles-js{background: linear-gradient(rgba(0,0,0,0.5), rgba(255,0,0,0,5));
+              height: 100vh;
+              background-size: cover;
+              background-position: center;
+}
+
 /* HTML5 display definitions ========================================================================== */
 /** Add the correct display in IE 9-. 1. Add the correct display in Edge, IE, and Firefox. 2. Add the correct display in IE. */
 article, aside, details, figcaption, figure, footer, header, main, menu, nav, section { /* 1 */ display: block; }
