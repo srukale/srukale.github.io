@@ -1,14 +1,10 @@
 
 
 /* Particle effect*/
-body{
-  
-  margin:0; padding:0;
-}
-#home,
+
 #particles-js {
   background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
-  position: cover;
+  background-position: cover;
   background-size: cover;
   height: 100vh;
   width: 100%;
