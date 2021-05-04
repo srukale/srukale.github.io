@@ -1,13 +1,3 @@
-/* Particle effect*/
-body{
-  margin: 0; padding: 0;
-}
-#home,
-#particles-js {
-  position: relative;
-  
-  width: 100%;
-}
 
 
 body { padding-bottom: 70px; color: #111; }
