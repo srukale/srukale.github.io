@@ -40,3 +40,34 @@ body {
     height: 100vh;
     }
 
+.navbar{
+    margin: 0px ;
+    display: inline-block;
+    width: 100%;
+    background-color: #000000;
+    }
+
+ul{
+    list-style: none;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-evenly;
+        }
+a{
+            text-decoration: none;
+            color:white;
+            font-size: 20px;
+            margin:0px;
+        }
+a:hover{
+            text-decoration:underline;
+            color:rgb(246, 225, 101);
+            font-size: 22px;
+            cursor: pointer;
+            transition-duration: 0.5s;
+           
+        }       
+        header::before{
+            background: #000000;
+        }
+
