@@ -9,7 +9,7 @@ body {
 .heading {
     position: absolute;
     text-align: center;
-    top: 20%;
+    top: 15%;
     width: 100%;
 }
 .heading h1 {
@@ -21,7 +21,7 @@ body {
     overflow: hidden;    
     font-family: 'Source Code Pro', monospace; 
     color: wheat;
-    font-size: 20px;
+    font-size: 22px;
 }
 /* Animation */
 .heading h3 {
@@ -32,13 +32,11 @@ body {
 @keyframes animated-text{
     from{width: 80%;}
     to{width: 100%;}
-  }
-}
-
+  } }
 #particles-js {
     background: #000000;
     height: 100vh;
-    }
+}
 
 .navbar{
     margin: 0px ;
@@ -70,4 +68,3 @@ a:hover{
         header::before{
             background: #000000;
         }
-
