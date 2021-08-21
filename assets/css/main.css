@@ -1,37 +1,9 @@
 body,h1 {font-family: "Montserrat", sans-serif}
-img {margin-bottom: -7px}
-.w3-row-padding img {margin-bottom: 12px}
-div.desc {
-  padding: 10px;
-  text-align: center;
-}
 
-* {
-  box-sizing: border-box;
-}
 
-.responsive {
-  padding: 0 6px;
-  float: left;
-  width: 25%;
-}
+body { padding-bottom: 70px; color: #111; }
 
-@media only screen and (max-width: 700px) {
-  .responsive {
-    width: 50%;
-    margin: 6px 0;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .responsive {
-    width: 100%;
-  }
-}
-
-/*body { padding-bottom: 70px; color: #111; }
-
-body.fixed-top-nav { padding-top: 56px; } */
+body.fixed-top-nav { padding-top: 56px; } 
 
 body.sticky-bottom-footer { padding-bottom: 0; }
 
