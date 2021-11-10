@@ -4,9 +4,9 @@
 :root .fa-sun { display: none; }
 :root .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
 
-html[data-theme='dark'] { --global-bg-color: #292929; --global-text-color: #e8e8e8; --global-theme-color: #11D68B; --global-hover-color: #ddffdd; --global-footer-bg-color: #e8e8e8; --global-footer-text-color: #292929; --global-footer-link-color: #000000; --global-icon-color: #11D68B; }
-html[data-theme='dark'] .fa-sun { padding-left: 10px; padding-top: 12px; display: block; }
-html[data-theme='dark'] .fa-moon { display: none; }
+html[data-theme='light'] { --global-bg-color: #292929; --global-text-color: #e8e8e8; --global-theme-color: #11D68B; --global-hover-color: #ddffdd; --global-footer-bg-color: #e8e8e8; --global-footer-text-color: #292929; --global-footer-link-color: #000000; --global-icon-color: #11D68B; }
+html[data-theme='light'] .fa-sun { padding-left: 10px; padding-top: 12px; display: block; }
+html[data-theme='light'] .fa-moon { display: none; }
 
 /****************************************************************************** Content *****************************************************************************/
 body { padding-bottom: 70px; color: var(--global-text-color); background-color: var(--global-bg-color); }
