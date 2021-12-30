@@ -160,6 +160,10 @@ This is implementation of Anomaly Detection using Time series data in Keras API.
   <p align="center">
   <img src="/projects/anomaly/dataprocess.png" width="600" height="300"/>
   </p>
-    
+  <p>The target vector is standarized by removing the mean and scaling it to the unit variance
+    using <code>StandardScaler</code> function from <code>sklearn.preprocessing</code></p>   
+  <p>The Data vectors are then reshaped in the form <code>n(samples)</code>
+    by <code>n(time_steps)</code> by <code>n(features)</code> in line with Time-Series modelling.</p>
+  
   </body>
         </html> 
