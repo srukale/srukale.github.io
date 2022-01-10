@@ -188,5 +188,7 @@ This is implementation of Anomaly Detection using Time series data in Keras API.
     the Dropout regularization is added to 0.2. Since the network is LSTM, we need to duplicate this vector using RepeatVector. 
     It’s purpose is to just replicate the feature vector from the output of LSTM layer 3o times. The encoder is done here.
 </p>
+  <p>In decoder layer, TimeDistributed function creates a dense layer with number of nodes equal to the number of features. And the model is compiled finally using adam optimizer function which is gradient descent optimizer.The 
+  model summary is shown above.</p>
   </body>
         </html> 
