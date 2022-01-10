@@ -182,6 +182,11 @@ This is implementation of Anomaly Detection using Time series data in Keras API.
   <p align="center">
   <img src="/projects/anomaly/lstmcode.png" width="600" height="300"/>
   </p>
-  
+  <p>In the above codes, X_train array i.e. (6523, 30, 1) is assigned. While building the LSTM architecture, Sequential model from keras API is used.
+  The sample data is 1% which is 2D array and is passed to LSTM as input. The output of the layer is going to be a feature vector of input data.
+  One LSTM layer is created with the number of cells to be 128. Input shape is equal to no. of time_stpes divided by no. of features. Then,
+    the Dropout regularization is added to 0.2. Since the network is LSTM, we need to duplicate this vector using RepeatVector. 
+    It’s purpose is to just replicate the feature vector from the output of LSTM layer 3o times. The encoder is done here.
+</p>
   </body>
         </html> 
