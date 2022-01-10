@@ -190,5 +190,11 @@ This is implementation of Anomaly Detection using Time series data in Keras API.
 </p>
   <p>In decoder layer, TimeDistributed function creates a dense layer with number of nodes equal to the number of features. And the model is compiled finally using adam optimizer function which is gradient descent optimizer.The 
   model summary is shown above.</p>
+  <h4 id="data-preprocessing">Autoencoder Training</h4>
+  <p>Keras Callback is created using early stopping so that the number of epochs are not needed to hard code. If the network doesn’t improve for 3 consecutive epochs,i.e. validation loss is not decreased we are going to stop our training process.
+    That is the meaning of patience. And now let’s fit the model to our calling data. No. of epochs is set to high as higher the epochs, more the accuracy of training. 10 % of the data is set for validation. And then the callback is done using es i.e. EarlyStopping.</p>
+<p align="center">
+  <img src="/projects/anomaly/auto.png" width="600" height="300"/>
+  </p>
   </body>
         </html> 
