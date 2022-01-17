@@ -192,9 +192,13 @@ This is implementation of Anomaly Detection using Time series data in Keras API.
   model summary is shown above.</p>
   <h4 id="data-preprocessing">Autoencoder Training</h4>
   <p>Keras Callback is created using early stopping so that the number of epochs are not needed to hard code. If the network doesn’t improve for 3 consecutive epochs,i.e. validation loss is not decreased we are going to stop our training process.
-    That is the meaning of patience. And now let’s fit the model to our calling data. No. of epochs is set to high as higher the epochs, more the accuracy of training. 10 % of the data is set for validation. And then the callback is done using es i.e. EarlyStopping.</p>
+    That is the meaning of patience. And now let’s fit the model to our calling data. No. of epochs is set to high as higher the epochs, more the accuracy of training. 10 % of the data is set for validation. And then the callback is done using <code>es</code> i.e. 
+    EarlyStopping.</p>
 <p align="center">
   <img src="/projects/anomaly/auto.png" width="600" height="300"/>
   </p>
+  <h4 id="data-preprocessing">Plot Metrics and Evaluate the Model</h4>
+  <p>Now the matrix that is training loss and validation loss is plotted using matplotlib. In the plot, validation loss is consistently found to be lower than training loss that means the training data due to the high dropout value 
+    we used So you can change the hyperparameters in 5th step to optimize the model.</p>
   </body>
         </html> 
