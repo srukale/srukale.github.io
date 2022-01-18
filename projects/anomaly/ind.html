@@ -229,10 +229,13 @@ Now, let’s calculate the mean absolute error on test set in similar way to the
   <p>Now let's build a data frame containing loss and anomalies values. Then let’s create a boolean-valued column called an anomaly, to track whether the input in that corresponding 
     row is an anomaly or not using the condition that the loss is greater than the threshold or not. Lastly, we will track the closing price</p>
   <p align="center">
-  <img src="/projects/anomaly/detect.png" width="600" height="200"/>
+  <img src="/projects/anomaly/detect.png" width="600" height="150"/>
   </p>
   <p align="center">
-  <img src="/projects/anomaly/deres.png" width="600" height="300"/>
+  <img src="/projects/anomaly/deres.png" width="600" height="250"/>
+  </p>
+  <p align="center">
+  <img src="/projects/anomaly/tail.png" width="600" height="250"/>
   </p>
   <p>Now let’s plot train and test loss value and overlay the line for threshold. First, we will create an empty figure and then use add_trace() method to populate the figure. We are going to create line plot using go.Scatter() method</p>
   
