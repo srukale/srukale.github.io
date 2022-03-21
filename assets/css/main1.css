@@ -62,6 +62,23 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 .navbar-toggler.collapsed .middle-bar { opacity: 1; }
 .navbar-toggler.collapsed .bottom-bar { transform: rotate(0); }
 
+.experiences .year { float: right; color: #b5b5b5; }
+
+.experiences ol.explist { list-style: none; padding: 0; margin-top: 0; }
+
+.experiences ol.explist li { margin-top: 1rem; border-top: 1px solid #e8e8e8; padding-top: 1rem; box-sizing: border-box; }
+
+.experiences ol.explist li img { height: 60px; float: left; }
+
+.experiences ol.explist li .expinfo { height: 60px; display: table-cell; vertical-align: middle; padding-left: 20px; }
+
+.experiences a { text-decoration: none; }
+
+.experiences a .expdesc { color: #828282; }
+
+.experiences a .exptitle { color: black; font-weight: bolder; }
+
+
 .news table td { font-size: 1rem; color: var(--global-text-color); }
 
 .news table th { color: var(--global-text-color); }
