@@ -19,27 +19,12 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 .profile img { width: 100%; }
 
-#affiliation-img { text-align: center; }
-#affiliation-img .center { display: inline-block; }
-#affiliation-img #diverse { height: 40px; }
-#affiliation-img #ur1 { height: 65px; }
-#affiliation-img #irisa { height: 45px; }
-#affiliation-img #inria { height: 50px; }
-#affiliation-img #jku { height: 40px; }
-#affiliation-img #tuw { height: 40px; }
 /****************************************************************************** Publications *****************************************************************************/
 /*****************************************************************************
 * Projects
 *****************************************************************************/
 /******************************************************************************* Styles for the base elements of the theme. *****************************************************************************/
-@media (max-width: 409px) { .social .contact-icon { font-size: 3rem !important; }
-  #affiliation-img { text-align: center; }
-  #affiliation-img .center { display: inline-block; }
-  #affiliation-img #diverse { height: 35px; }
-  #affiliation-img #ur1 { height: 60px; }
-  #affiliation-img #esir { height: 35px; }
-  #affiliation-img #irisa { height: 35px; }
-  #affiliation-img #inria { height: 40px; }
+
   
 a, table.table a { color: var(--global-theme-color); }
 a:hover, table.table a:hover { color: var(--global-theme-color); text-decoration: underline; }
@@ -161,3 +146,12 @@ footer.sticky-bottom { border-top: 1px solid #e8e8e8; padding-top: 40px; padding
 code { color: var(--global-theme-color); }
 
 html.transition, html.transition *, html.transition *:before, html.transition *:after { transition: all 750ms !important; transition-delay: 0 !important; }
+@media (max-width: 409px) { .social .contact-icon { font-size: 3rem !important; }
+ #affiliation-img { text-align: center; }
+ #affiliation-img .center { display: inline-block; }
+ #affiliation-img #diverse { height: 40px; }
+ #affiliation-img #ur1 { height: 65px; }
+ #affiliation-img #irisa { height: 45px; }
+ #affiliation-img #inria { height: 50px; }
+ #affiliation-img #jku { height: 40px; }
+ #affiliation-img #tuw { height: 40px; }
