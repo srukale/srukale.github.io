@@ -1,13 +1,13 @@
 /******************************************************************************* Variables used throughout the theme. To adjust anything, simply edit the variables below and rebuild the theme. */
 /* Set theme colors *************************/
 /******************************************************************************* Themes */
-:root { --global-bg-color: #eeeeee; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #d39b19; --global-hover-color: #d39b19; --global-footer-bg-color: #1C1C1D; --global-footer-text-color: #b5b5b5; --global-footer-link-color: #eeeeee; --global-distill-app-color: #828282; --global-divider-color: rgba(0,0,0,.1); }
+:root { --global-bg-color: #ffffff; --global-code-bg-color: rgba(181, 9, 172, 0.05); --global-text-color: #000000; --global-text-color-light: #828282; --global-theme-color: #ab0000; --global-hover-color: #ab0000; --global-footer-bg-color: #1C1C1D; --global-footer-text-color: #b5b5b5; --global-footer-link-color: #eeeeee; --global-distill-app-color: #828282; --global-divider-color: rgba(0,0,0,.1); }
 
 :root .fa-sun { display: none; }
 
 :root .fa-moon { padding-left: 10px; padding-top: 12px; display: block; }
 
-html[data-theme='dark'] { --global-bg-color: #1C1C1D; --global-code-bg-color: #2c3237; --global-text-color: #b5b5b5; --global-text-color-light: #b5b5b5; --global-theme-color: #d39b19; --global-hover-color: #d39b19; --global-footer-bg-color: #b5b5b5; --global-footer-text-color: #1C1C1D; --global-footer-link-color: #000000; --global-distill-app-color: #b5b5b5; --global-divider-color: #424246; }
+html[data-theme='dark'] { --global-bg-color: #1C1C1D; --global-code-bg-color: #2c3237; --global-text-color: #b5b5b5; --global-text-color-light: #b5b5b5; --global-theme-color: #ab0000; --global-hover-color: #ab0000; --global-footer-bg-color: #b5b5b5; --global-footer-text-color: #1C1C1D; --global-footer-link-color: #000000; --global-distill-app-color: #b5b5b5; --global-divider-color: #424246; }
 
 html[data-theme='dark'] .fa-sun { padding-left: 10px; padding-top: 12px; display: block; }
 
