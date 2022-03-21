@@ -91,7 +91,7 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 .social .contact-icon a { color: var(--global-icon-color); }
 .social .contact-icon a:hover { color: var(--global-theme-color); }
 .social .contact-note { font-size: 0.8rem; }
-@media (max-width: 409px) { .social .contact-icon { font-size: 3rem !important; }
+
  #affiliation-img { text-align: center; }
  #affiliation-img .center { display: inline-block; }
  #affiliation-img #diverse { height: 40px; }
