@@ -21,7 +21,7 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 #affiliation-img { text-align: center; }
 #affiliation-img .center { display: inline-block; }
-#affiliation-img #diverse { height: 20px; }
+#affiliation-img #diverse { height: 100px; }
 #affiliation-img #techno { height: 40px; }
 #affiliation-img #ur1 { height: 50px; }
 #affiliation-img #irisa { height: 35px; }
