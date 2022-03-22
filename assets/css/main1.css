@@ -19,6 +19,14 @@ body.sticky-bottom-footer { padding-bottom: 0; }
 
 .profile img { width: 100%; }
 
+#affiliation-img { text-align: center; }
+#affiliation-img .center { display: inline-block; }
+#affiliation-img #diverse { height: 50px; }
+#affiliation-img #ur1 { height: 40px; }
+#affiliation-img #irisa { height: 50px; }
+#affiliation-img #inria { height: 50px; }
+#affiliation-img #jku { height: 40px; }
+#affiliation-img #tuw { height: 40px; }
 /****************************************************************************** Publications *****************************************************************************/
 /*****************************************************************************
 * Projects
@@ -92,14 +100,6 @@ a:hover:after, table.table a:hover:after { width: 100%; }
 .social .contact-icon a:hover { color: var(--global-theme-color); }
 .social .contact-note { font-size: 0.8rem; }
 
- #affiliation-img { text-align: center; }
- #affiliation-img .center { display: inline-block; }
- #affiliation-img #diverse { height: 50px; }
- #affiliation-img #ur1 { height: 40px; }
- #affiliation-img #irisa { height: 50px; }
- #affiliation-img #inria { height: 50px; }
- #affiliation-img #jku { height: 40px; }
- #affiliation-img #tuw { height: 40px; }
   
 footer.fixed-bottom { color: var(--global-footer-text-color); background-color: var(--global-footer-bg-color); font-size: 0.75rem; }
 footer.fixed-bottom .container { padding-top: 9px; padding-bottom: 8px; }
